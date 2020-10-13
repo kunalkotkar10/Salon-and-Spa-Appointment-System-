@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Registration Page</title>
+	<link rel="stylesheet" type="text/css" href="static/css/register-style.css">
+<script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=141rJfFxyh9bejxfW2Vcj5DDNc87f_DLm8qb7w2tOPTbBUa2-vHXMg9Rv4YI0ySDS0ylxt9_I2ZpWBl2dIFjkBSO2M_a1jTcjQoNfJzlq5LuOBkX0sFMqJDziZJR-BlRZO-s3D4SBkY0NQuYD_ce2d_LhCnB6hlO15L5iJzcWr5giH5edEbwb0d8F25posOi2AQEEal0JnjD1w4ZhpKQq1cTcGBlnOoVQWM34lZpHU9kGEFRDoq-Eiw2yTfx1nNxi9C8PbsfB7LVOG0N4TsfS2vIR1w_etxOKpn_J0zDHWaBraSPRqJRUhjq6r1K_ezoBFbwwB7UHkgBqBpJoSvIMJ-FnwiVKB7B8Me_iBbCMTw3ce7VjV3cPbUVX_ZfjlMojOEUZfC_AElxweWQbiWf8nRZAcRcV36LZYxveP7Nmw1OQZshxYjDg9A1P79pIY_y_Tmf1NhdlUQTM_DSIUXujAlS89FB5CO-VFr7TWEobI-Wc0f1o5zAnC8rzQS3i7F7tGMp3lQw-avJ14aFAv4c_iFFc9CNZvtDhvqgMrGkA_tyOXR1WdcAHkC6xyCJnC46Ph_JKSErOuAH6UvuJbDNvALbgkso3xLehXrq-TeWTXAN22NHrIMIN4OwiV3XWGmkOQY2e55z6EIFddtF6sCY1lIPluHvTzPfxHEfIa0hjeUJ0DSaK1MkyclgcwESPuRhOiQYHp_QGNeT-KwE_QMl_Xsxgvrj_L8EBqKN3230VEuwRKO8l5X2OI5-IhaBuIRhkfbg1Q6xFpRuhFubaq7XOfPMEP_uBSweTDb6Okwma0bFdgBZeSKEY2Pb74QwWqUsTFokvALy1Cj3Nlkk2gC-ABxR78Q84pLJgVXAdPaBRJ8_OJuj2_NSanWLenOM7xx85Uzdo7l0pzcqT_5vkzQS-K-0WbcM4Gqm_fGypuK-63XC_0E3fG7RVt0Mqfkgs69i8l7lUFym2eraYIq2SaeLMWJVuQaghRFX6mzI8E5VflR8BGTTcuMwnRKJQLo96NhMT5CKKObPXV0PS3cO7l0E4DCs7V7HvoOERnjkniUQycoLWiErPg1wTK1cmb6AmttS-5oFWRtZwil76RZ28xATXcPyocgik8pLECJ12yHmEZ5DGv5Y9cpogAK8EOCFhDxcCHfu7BysLQQ66Sd1cGGzeydcaBZMdqbp6ZXdZN26p6AKD6BWfeKro5lVZt1wNHzRjAsCagQytgKFqc7t_91_OA" nonce="a3ceb96429dfce43b73b1bd119ef9a80" charset="UTF-8"></script></head>
+<body>
+
+	<div class="container1">
+        <a href="#" id="logo" style="padding-left:40px;">BEYOND THE MIRROR</a>
+        <a href="register.html">Register</a>
+        <a href="login.html" id="nav-right" class="active">Log In</a>
+        <a href="index.html">Home</a>
+      </div>
+
+
+
+
+	<div class = "hero" > 
+		<div class="form-box">
+			<div class="button-box">
+				        <div id="btn"></div>
+						<button type="button" class="toggle-btn" onclick="prime()">Prime</button>
+						<button type="button" class="toggle-btn" onclick="regular()">Regular</button>
+			</div>
+			<form id="prime1" class="input-group1">
+				<input type="text" class="input-field" placeholder="First Name" required>
+				<input type="email" class="input-field" placeholder="Email ID" required>
+				<input type="text"class="input-field" placeholder="Enter Username" required style="margin-bottom: 20px">
+				<label for="gender" id="input-field">Gender:</label>
+					<input type="radio" id="male" name="gender" value="male">
+  				<label for="male">Male</label>
+    				<input type="radio" id="female" name="gender" value="female">
+  				<label for="female">Female</label>
+  					<input type="radio" id="other" name="gender" value="other">
+  				<label for="other">Other</label>
+  					<input type="text" class="input-field" placeholder="Phone" required style="margin-top: 20px">
+  				<input type="text" class="input-field" placeholder="Address" required>
+  			</form>
+			<form id="prime2" class="input-group2">
+				<input type="text" class="input-field" placeholder="Last Name" required style="margin-bottom: 50px">
+				<input type="text"class="input-field" placeholder="Enter Password" required>
+				<input type="date" class="input-field" placeholder="DOB" required>
+				<input type="text" class="input-field" placeholder="Aadhar Card No." required>
+				<input type="text" class="input-field" placeholder="Pincode" required>
+			</form>
+			<form id="regular1" class="input-group1">
+				<input type="text" class="input-field" placeholder="First Name" required>
+				<input type="email" class="input-field" placeholder="Email ID" required>
+				<input type="text"class="input-field" placeholder="Enter Username" required style="margin-bottom: 20px">
+				<label for="gender" id="input-field-gender">Gender:</label>
+				  <input type="radio" id="male" name="gender" value="male">
+  				  <label for="male">Male</label>
+    			  <input type="radio" id="female" name="gender" value="female">
+  				  <label for="female">Female</label>
+  				  <input type="radio" id="other" name="gender" value="other">
+  				  <label for="other">Other</label>
+				<input type="text" class="input-field" placeholder="Phone" required style="margin-top: 20px">
+			</form>
+			<form id="regular2" class="input-group2">
+				<input type="text" class="input-field" placeholder="Last Name" required style="margin-bottom: 50px">
+				<input type="text"class="input-field" placeholder="Enter Password" required>
+				<input type="date" class="input-field" placeholder="DOB" required></form>
+				<div class="submit-div1">
+  				  <button type="submit" class="submit-btn">Register</button>
+				<p>Already Registered?<a href="login-new.html" id="gotoreg">Login Here</a></p></div>
+		</div>
+	</div>
+	</body>
+<script>
+	var x1 = document.getElementById("prime1");
+	var x2 = document.getElementById("prime2");
+	var y1 = document.getElementById("regular1");
+	var y2 = document.getElementById("regular2");
+	var z = document.getElementById("btn");
+
+	function regular() {
+		x1.style.left = "-800px";
+		x2.style.left = "-400px"
+		y1.style.left = "50px";
+		y2.style.left = "450px"
+		z.style.left = "110px";
+	}
+
+	function prime() {
+		x1.style.left = "50px";
+		x2.style.left = "450px";
+		y1.style.left = "950px";
+		y2.style.left = "1350px";
+		z.style.left = "0px";
+	}
+</script>
+</html>
