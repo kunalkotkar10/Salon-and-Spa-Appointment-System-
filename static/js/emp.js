@@ -1,9 +1,88 @@
+$(document).ready(function(){
+
+  $('#date1').click(function(e){
+    
+    e.preventDefault();
+
+    var chosen_date = $('#date1').val();
+    
+    $.ajax({
+      type:"POST",
+      cache:false,
+      url:"empaction.php",
+      data:{'date': chosen_date}, 
+      success: function (responsedata) {
+        $('#empappts').html(responsedata);
+      }
+    });
+
+  });
+
+  $('#date2').click(function(e){
+    
+    e.preventDefault();
+
+    var chosen_date = $('#date2').val();
+    
+    $.ajax({
+      type:"POST",
+      cache:false,
+      url:"empaction.php",
+      data:{'date': chosen_date}, 
+      success: function (responsedata) {
+        $('#empappts').html(responsedata);
+      }
+    });
+
+  });
+
+  $('#date3').click(function(e){
+    
+    e.preventDefault();
+
+    var chosen_date = $('#date3').val();
+    
+    $.ajax({
+      type:"POST",
+      cache:false,
+      url:"empaction.php",
+      data:{'date': chosen_date}, 
+      success: function (responsedata) {
+        $('#empappts').html(responsedata);
+      }
+    });
+
+  });
+
+  $('#date4').click(function(e){
+    
+    e.preventDefault();
+
+    var chosen_date = $('#date4').val();
+    
+    $.ajax({
+      type:"POST",
+      cache:false,
+      url:"empaction.php",
+      data:{'date': chosen_date}, 
+      success: function (responsedata) {
+        $('#empappts').html(responsedata);
+      }
+    });
+
+  });
+
+
+});
+
+
+
 function GetFormattedDate(i) {
     var todayTime = new Date();
     var month = String(todayTime.getMonth() + 1);
     var day = String(todayTime.getDate() + i);
     var year = String(todayTime.getFullYear());
-    return day + "/" + month + "/" + year;
+    return day + "-" + month + "-" + year;
   }
 
   function getdate() {
@@ -33,3 +112,6 @@ function GetFormattedDate(i) {
     document.getElementById('appdate').innerHTML = d;
     
   }
+
+
+

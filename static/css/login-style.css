@@ -1,12 +1,38 @@
 *{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Product Sans', sans-serif;
   margin: 0;
   padding-top: 0;
  }
     .carousel-control-next,
     .carousel-control-prev {
         filter: invert(100%);
+
+
     }
+    
+    
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+    
     /*----------------navigation bar---------------------------*/
     .container1{
       width: 100%;
@@ -66,26 +92,34 @@
     
     .form-box{
         width: 380px;
-        height: 520px;
+        height: 540px;
         position: relative;
-        margin: 6% auto;
-        background: #b76e79;
-          background: -webkit-linear-gradient(top, #b18322, #c5af62);
-          background: -o-linear-gradient(top, #b18322, #c5af62);
-          background: -moz-linear-gradient(top, #b18322, #c5af62);
-          background: linear-gradient(top, #b18322, #c5af62);
+        margin: 4% auto;
+        background: silver;
+        background: -webkit-linear-gradient(top, #ffffff, #7c7a74);
+        background: -o-linear-gradient(top, #ffffff, #7c7a74);
+        background: -moz-linear-gradient(top, #ffffff, #7c7a74);
+        background: linear-gradient(top, #ffffff, #7c7a74);
           padding: 5px;
         overflow: hidden;
     
     }
+
+    .title-form{
+      font-family: 'Product Sans', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      margin: 1%;
+      text-align: center;
+  }
     
     .button-box{
-      border: white solid;
+      border: silver solid;
       background-color: #fff;
       width: 250px;
       margin: 35px auto;
       position: relative;
-      box-shadow: 0 0 20px 9px #ff61241f;
+      box-shadow: 0 0 20px 9px #5351501f;
       border-radius: 30px;
     }
     
@@ -104,7 +138,7 @@
       position: absolute;
       width: 140px;
       height: 100%;
-      background: linear-gradient(to right, #b18322, #c5af62);
+      background: linear-gradient(to left, #bbbbbb, #7c7a74);
       border-radius: 30px;
       transition: .5s;
     }
@@ -120,12 +154,12 @@
         box-shadow: 0 0 20px 0 #7f7f7f3d;
         cursor: pointer;
         border: solid;
-        border-color: white;
+        border-color: silver;
         border-radius: 50%;
     }
     
     .input-group{
-        top: 180px;
+        top: 200px;
         position: absolute;
         width: 280px;
         transition: .5s;
@@ -154,12 +188,19 @@
         cursor: pointer;
         display: block;
         margin: auto;
-        background: linear-gradient(to right, #b18322, #c5af62);
-        border: white solid;
+        background: linear-gradient(to right, #7c7a74, #ffffff);
+        border: silver solid;
         outline: none;
         border-radius: 30px;
     }
-    
+    .error_msg{
+
+    position: absolute;
+    margin: 25px;
+    margin-left: 0px;
+    color:red;
+    }
+
     .check-box{
         margin: 30px 10px 30px 0;
     }
@@ -201,7 +242,27 @@
     #regular{
         left: 450px;
     }
+    /***media*/
+@media (max-width: 991px) {
+    #register{
+      margin-top:54px;
+
+    }  
+    #login{
+      margin-top:54px;
+
+    }  
+
+    /* .container1{
+      position: relative;
+    }
+    .hero{
     
-    
-    
+      margin-top: 60px;
+    } */
+    .form-box{
+      margin:18% auto;
+    }
+  
+    }
     

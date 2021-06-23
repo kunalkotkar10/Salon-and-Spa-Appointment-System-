@@ -1,11 +1,11 @@
 *{
-  font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Product Sans', sans-serif;
   }
   .body{
     margin: 0;
     padding: 0;
   }
-  
+
   .carousel-control-next,
   .carousel-control-prev {
       filter: invert(100%);
@@ -64,7 +64,7 @@
 
 
 /* --------------------left------------------- */
-    
+
 
 .left{
   display: inline-block;
@@ -126,7 +126,7 @@ display: block;
 
 
 /* #Tab{
-  
+
   margin: 0;
   padding: 0;
 } */
@@ -139,10 +139,10 @@ display: block;
 .histoptions{
 background-color: #e8e8e8;
 min-height: fit-content;
-} 
+}
 
 #hopts1{
-  
+
     display: inline-block;
     width: 33%;
     background-color: rgb(163, 161, 161);
@@ -159,9 +159,9 @@ min-height: fit-content;
 }
 
 #hopts2{
-  
+
     display: inline-block;
-    width: 33%;        
+    width: 33%;
     background-color: rgb(163, 161, 161);;
     /* height: 200px; */
     text-align: center;
@@ -187,12 +187,12 @@ min-height: fit-content;
     border-radius: 4px;
     border: 1px solid blue;
 }
-  
+
 
 #histbtn1, #histbtn2, #histbtn3{
 
   margin-top:10px;
-  
+
 }
 
 
@@ -210,11 +210,11 @@ min-height: fit-content;
 
 .footer{
 top:0%;
-background-color: black;
+background-color:  #1a1c20;
 color: gold;
+font-weight: bold;
 }
 
 /* ----------------------footer ends--------------------------- */
 
 /* --------------------body ends------------------------------ */
-    

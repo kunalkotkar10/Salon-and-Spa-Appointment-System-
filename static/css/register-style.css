@@ -1,5 +1,5 @@
 *{
-	font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Product Sans', sans-serif;
 	margin: 0;
 	padding-top: 0;
    }
@@ -18,7 +18,7 @@
 		position: fixed;
 		z-index: 1;
 	  }
-	  
+
 	  /* Style the links inside the navigation bar */
 	  .container1 a {
 	   /* color: #f2f2f2;*/
@@ -30,44 +30,44 @@
 		float: right;
 		line-height: 2;
 	  }
-	  
+
 	  #logo{
 		color: #f2f2f2;
 		  float: left;
 		}
-	  
+
 	  /* Change the color of links on hover */
 	  .container1 a:hover {
 		background-color: #000000;
 		color: #F5F5F5;
 		text-decoration: none;
 	  }
-	  
+
 	  /* Add a color to the active/current link */
 	  .container1 a.active {
 		background-color: #000000;
 		color: #F5F5F5;
 	  }
-	  
+
 	  /*----------------navigation ends---------------------------*/
 
 .hero{
 	position: absolute;
 	width: 100%;
 	top:6%;
-	height: 94%;
+	height: 97%;
 	background-image: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),url('../images/registrationbg.jpg');
 	background-position: center;
 	background-size: cover;
-	overflow: hidden;
-	
+
+
 }
 
 .form-box{
 	width: 760px;
-	height: 520px;
+	height: 580px;
 	position: relative;
-	margin: 6% auto;
+	margin: 2% auto;
 	background: #adac66;
   	background: -webkit-linear-gradient(top, #e7dec8, #d9ecf2);
   	background: -o-linear-gradient(top, #e7dec8, #d9ecf2);
@@ -77,6 +77,13 @@
 	overflow: hidden;
 }
 
+.title-form{
+	font-family: 'Product Sans', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	margin: 2%;
+	text-align: center;
+}
 .button-box{
   background-color: #fff;
   width: 250px;
@@ -109,7 +116,7 @@
 
 .input-group1{
 	left: 80px;
-	top: 100px;
+	top: 150px;
 	position: absolute;
 	width: 280px;
 	transition: .5s;
@@ -117,7 +124,7 @@
 
 .input-group2{
 	left: 400px;
-	top: 100px;
+	top: 150px;
 	position: absolute;
 	width: 280px;
 	transition: .5s;
@@ -141,12 +148,12 @@ label{
 }
 
 .submit-div1{
-	margin-top: 320px;
+	margin-top: 360px;
 }
 
 .submit-btn{
 	position: relative;
-	margin-top: 200px;
+	margin-top: 260px;
 	margin-left: 50px;
 	width:50%;
 	padding: 10px 30px;
@@ -180,11 +187,26 @@ p{
 	font-size: 14px;
 	color: #444;
 }
+#error_msg{
 
+	font-weight: bold;
+	color:red;
+	margin-right: 50px;
+	margin-top: 15px;
+	width: 600px;
+	text-align: center;
+}
+#error_msg1{
+	font-weight: bold;
+	color:red;
+	margin-right: 50px;
+	margin-top: 15px;
+	width: 600px; 
+}
 #gotolog{
 	position: relative;
 	font-size: 14px;
-	padding-left: 10px; 
+	padding-left: 10px;
 }
 
 #prime1{
@@ -199,14 +221,13 @@ p{
 	left: 950px;
 }
 
-#regular2{
-	left: 1350px;
-}
-
 #submit1{
 	left: 50px;
 }
+.submit-div1{
 
+	padding: 45px 0 0 25px;
+}
 #submit2{
 	left: 950px;
 }
@@ -218,24 +239,24 @@ p{
       -webkit-appearance: none;
       margin: 0;
     }
-  
+
     /* Firefox */
     input[type=number] {
       -moz-appearance: textfield;
+	}
+	
+
+	 @media (max-width: 991px) {
+		#register{
+			margin-top:54px;
+	  
+		  }  
+		  #login{
+			margin-top:54px;
+	  
+		  }  
+	.hero{
+		margin-top: 60px;
+		overflow:scroll;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	} 
