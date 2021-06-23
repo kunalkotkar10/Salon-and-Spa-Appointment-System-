@@ -1,5 +1,5 @@
 *{
-font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Product Sans', sans-serif;
 }
 .body{
   margin: 0;
@@ -21,33 +21,42 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 /* Style the links inside the navigation bar */
 .container1 a {
- /* color: #f2f2f2;*/
- color: #000000;
-  text-align: center;
-  padding: 10px 15px;
-  text-decoration: none;
-  font-size: 17px;
-  float: right;
-  line-height: 2;
-}
-
-#logo{
-  color: #f2f2f2;
-    float: left;
-  }
-
-/* Change the color of links on hover */
-.container1 a:hover {
-  background-color: #000000;
-  color: #F5F5F5;
-  text-decoration: none;
-}
-
-/* Add a color to the active/current link */
-.container1 a.active {
-  background-color: #000000;
-  color: #F5F5F5;
-}
+  /* color: #f2f2f2;*/
+  color: black;
+   text-align: center;
+   padding: 10px 15px;
+   text-decoration: none;
+   font-size: 19px;
+   float: right;
+   line-height: 2;
+ }
+ #navitem{
+   color: black;
+ }
+ #navitem:hover{
+   color: #f2f2f2;
+   background-color: black;
+ }
+ 
+ #logo:hover{
+   color: #f2f2f2;
+   background-color: black;
+     float: left;
+   }
+ 
+ /* Change the color of links on hover */
+ .container1 a:hover {
+   background-color: black;
+   color: white;
+   text-decoration: none;
+ }
+ 
+ /* Add a color to the active/current link */
+ #active {
+   background-color: #000000;
+   color: white;
+ }
+ 
 
 /*----------------navigation ends---------------------------*/
 #notice{
@@ -68,6 +77,9 @@ font-family: 'Roboto Condensed', sans-serif;
 .left{
   display: inline-block;
   position: absolute;
+}
+.right{
+  margin-left: 15%;
 }
 
 #uploadimage :hover{
@@ -94,6 +106,7 @@ font-family: 'Roboto Condensed', sans-serif;
   padding-top: 20px;
 }
 .apptable{
+  min-height: 282px;
   background-color: #e8e8e8;
 }
 .apptablehead{
@@ -105,11 +118,20 @@ font-family: 'Roboto Condensed', sans-serif;
 .apptablehead h2{
   padding-left: 40px;
 }
+#nextbtn{
+  margin-left:90%;
+}
+
 #Tab{
 
-  margin: 0;
-  padding: 0;
+   margin-bottom: 0px;
 }
+.bookmsg{
+  
+  color:red;
+  margin-left:3%;
+}
+
 .my-custom-scrollbar {
 position: relative;
 height: 200px;
@@ -132,7 +154,7 @@ display: block;
       -webkit-appearance: none;
       margin: 0;
     }
-  
+
     /* Firefox */
     input[type=number] {
       -moz-appearance: textfield;
@@ -147,3 +169,53 @@ display: block;
  }
 
  /* --------------footer ends-------------------- */
+ @media (max-width: 991px) {
+
+.left,.user{ display: none;
+            }
+
+.left{width: 0%;}
+.right{margin-left: 0px;
+}
+#Tab{
+  min-height: 500px;
+}
+
+#nextbtn{
+  margin-top: 5%;
+  margin-left:0%;
+}
+
+
+  
+
+  .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+  }
+
+  #navbarTogglerDemo02{
+      text-align: center;
+  }
+  .ul{
+    
+      justify-content: center;
+      display: flex;
+  }
+  .carouselslidecontainer2{
+  display:none;
+}
+
+}
+
+
+
+
+@media (max-width: 991px) {
+  #active {
+    background-color: transparent;
+    color: black;
+  }
+  
+} 

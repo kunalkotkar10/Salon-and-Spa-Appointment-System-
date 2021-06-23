@@ -1,15 +1,56 @@
-var x = document.getElementById("prime");
-	var y = document.getElementById("regular");
-	var z = document.getElementById("btn");
+// $(document).ready(function() {
+//   $("#prime").validate({
+//     rules: {
+//       name : {
+//         required: true,
+//         minlength: 3
+//       },
+//       pass: {
+//         required: true,
+//         number: true,
+//       },
 
-	function regular() {
-		x.style.left = "-400px";
-		y.style.left = "50px";
-		z.style.left = "110px";
-	}
+//     },
 
-	function prime() {
-		x.style.left = "50px";
-		y.style.left = "450px";
-		z.style.left = "0px";
-	}
+
+// 		messages : {
+//   name: {
+//     minlength: "Name should be at least 3 characters"
+//   },
+//   pass: {
+//     required: "Please enter your password",
+//   },
+
+// }
+
+//   });
+
+
+// 	$("#regular").validate({
+// 		rules: {
+// 			name1 : {
+// 				required: true,
+// 				minlength: 3
+// 			},
+// 			pass1: {
+// 				required: true,
+// 				minlength: 3
+// 			},
+
+// 		},
+
+
+// 		messages : {
+// 	name1: {
+// 		minlength: "Name should be at least 3 characters"
+// 	},
+// 	pass1: {
+// 		required: "Please enter your password",
+// 	},
+
+// }
+
+// 	});
+
+
+// });
